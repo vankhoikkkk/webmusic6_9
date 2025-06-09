@@ -1,0 +1,80 @@
+.tabs {
+  display: flex;
+  justify-content: center;
+}
+.tabs div {
+  margin: 0.3px;
+  padding: 8px;
+  color: black;
+  background-color: #e5e5e5;
+  cursor: pointer;
+}
+#tab-usuk {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 13px;
+  padding-right: 13px;
+}
+
+#tab-cn {
+  border-radius: 0px 13px 13px 0px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 13px;
+  padding-right: 8px;
+}
+#tab-vn {
+  border-radius: 13px 0px 0px 13px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 13px;
+  padding-right: 8px;
+}
+
+#tab-cn:hover,
+#tab-usuk:hover,
+#tab_vn :hover {
+  color: white;
+  background-color: red;
+}
+.tab.active {
+  color: white;
+  background-color: red;
+}
+
+.chart {
+  display: none;
+}
+
+.chart.active {
+  display: block;
+}
+
+.song-number {
+  width: 30px;
+  font-weight: bold;
+  text-align: right;
+  display: flex;
+  justify-content: center;
+}
+.song-info {
+  text-align: left;
+}
+.song-info div strong a {
+  color: black;
+}
+.song-info div strong a:hover {
+  color: #00aeef;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0 15px;
+}
+tr {
+  padding-bottom: 100px;
+}
+.songs,
+.views {
+  padding-left: 15px;
+  padding-right: 15px;
+}

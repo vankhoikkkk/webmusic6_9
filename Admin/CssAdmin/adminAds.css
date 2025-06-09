@@ -1,0 +1,74 @@
+.ads-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+
+}
+
+.ad-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    width: 300px;
+    box-shadow: 0 2px 8px rgb(14, 131, 203);
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    font-weight: bolder;
+    background-image: url(../imageWeb/music.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+
+}
+
+.ad-card img {
+    width: 70%;
+    height: 50%;
+    object-fit: cover;
+    border-radius: 5px;
+    border: dodgerblue double 2px;
+}
+
+.ad-card .ad-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.ad-card .ad-link {
+    font-size: 13px;
+    color: #007bff;
+    word-break: break-all;
+}
+
+.ad-card .ad-status {
+    margin: 5px 0;
+    font-size: 13px;
+}
+
+.ad-card .ad-actions {
+    margin-top: 10px;
+}
+
+.ad-card .ad-actions a {
+    margin-right: 10px;
+    color: #007bff;
+    text-decoration: none;
+    border: #007bff double 2px;
+    border-radius: 10%;
+}
+
+.ad-card .ad-actions a:hover {
+    background-color: cadetblue;
+}
+
+.ad-card .ad-actions a.delete {
+    color: #dc3545;
+}

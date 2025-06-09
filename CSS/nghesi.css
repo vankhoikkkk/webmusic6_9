@@ -1,0 +1,132 @@
+  .top {
+      padding-top: 100px;
+      text-align: center;
+  }
+
+  .top>h1 {
+      padding-bottom: 20px;
+  }
+
+
+  .container_nghesi {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px 0px;
+      border: 1px solid rgb(43, 12, 110);
+      background-image: url(../Admin/nenTrang/nen.jpg);
+  }
+
+  .container_nghesi-left {
+      padding: 20px;
+      background-color: #007bff;
+      width: 15%;
+      border-radius: 10px;
+      margin-left: 5px;
+      background-image: url(../Admin/nenTrang/adminbackground.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+  }
+
+  .menu_nghesi {
+      width: 100%;
+  }
+
+  .item {
+      text-decoration: none;
+      font-size: 20px;
+      padding: 20px 10px;
+      display: block;
+      font-weight: bolder;
+      border-bottom: 1px solid #007bff;
+  }
+
+  .item:hover {
+      background-color: #fff;
+  }
+
+  .container_nghesi-right {
+      width: 85%;
+  }
+
+
+
+
+
+  .artist-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      gap: 70px;
+      padding: 10px;
+  }
+
+  .artist-item {
+
+      background-color: white;
+
+      width: 200px;
+      height: 250px;
+      border-radius: 10px;
+      box-shadow: 0 0 8px 15px rgba(30, 133, 217, 0.1);
+      padding: 10px;
+      text-align: center;
+      /*Căn giữa nội dung văn bản theo chiều ngang.*/
+
+      border: 1px solid blue;
+  }
+
+  .ten {
+      padding: 10px;
+  }
+
+  .casi {
+      font-weight: bold;
+      font-size: 20px;
+      color: #007bff;
+      cursor: pointer;
+  }
+
+  .casi:hover {
+      color: #162aab;
+  }
+
+  .artist-item img {
+      width: 170px;
+      height: 170px;
+      /* ảnh bao phủ khung và có thể bị cắt, không giữ tỉ lệ gốc */
+      object-fit: cover;
+      border-radius: 5px;
+      transition: transform 0.3s;
+      /*ảnh đuwocj phóng to 30% kích thước gốc*/
+  }
+
+  .artist-item img:hover {
+      transform: scale(1.05);
+  }
+
+  /*phân trang*/
+  .pagination {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+  }
+
+  .pagination a {
+      margin: 0 5px;
+      padding: 8px 12px;
+      background-color: #007BFF;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+  }
+
+  .pagination a:hover {
+      background-color: #0056b3;
+  }
+
+  .pagination span {
+      margin: 0 5px;
+      padding: 8px 12px;
+      background-color: #02070c;
+      color: white;
+      border-radius: 5px;
+  }

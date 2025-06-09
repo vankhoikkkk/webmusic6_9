@@ -1,0 +1,155 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header */
+.Header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 60px;
+}
+
+.Header {
+  border-bottom: #dadada solid 1px;
+  background-color: white;
+  width: 100%;
+  position: fixed;
+  align-items: center;
+  height: 70px;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.Header a {
+  text-decoration: none;
+}
+
+.Logo a img {
+  width: 80px;
+}
+
+.Menu {
+  margin-left: -400px;
+}
+
+.Menu ul {
+  display: flex;
+  list-style: none;
+}
+
+.Menu ul li {
+  padding: 10px;
+}
+
+.Menu ul li a {
+  color: rgb(91, 91, 91);
+}
+
+#Other {
+  margin-top: -4px;
+}
+
+.Other ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.Other ul li {
+  padding-right: 10px;
+}
+
+.Other ul li a img {
+  width: 20px;
+}
+
+.search-box {
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+.search-box input {
+  padding: 6px;
+  width: 60%;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  font-size: 16px;
+}
+
+.search-box button {
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  background-image: linear-gradient(45deg, #2f80ed 0%, #00aeef 100%);
+}
+
+#box-form {
+  padding: 7px;
+  border-radius: 4px;
+}
+#box-form:focus {
+  outline: none;
+}
+
+.recent-searches {
+  display: none; /* Ẩn mặc định */
+  position: absolute; /* Đặt vị trí tuyệt đối */
+  background-image: linear-gradient(45deg, #2f80ed 0%, #00aeef 100%);
+  border: 1px solid #000000; /* Đường viền */
+  border-radius: 5px; /* Bo góc */
+  width: 20%; /* Chiều rộng như ô tìm kiếm */
+  z-index: 1000; /* Đảm bảo nó hiển thị trên các phần khác */
+  padding: 10px; /* Padding cho nội dung */
+  top: 60px; /* Đặt vị trí dưới header */
+}
+
+.search-box:focus-within .recent-searches {
+  display: block; /* Hiển thị khi ô tìm kiếm được nhấn */
+}
+
+.recent-searches p {
+  margin: 0 0 10px; /* Khoảng cách cho tiêu đề */
+}
+
+.search-tag {
+  display: block; /* Hiển thị mỗi từ khóa trên một dòng */
+  padding: 8px; /* Padding cho từng từ khóa */
+  color: #000000; /* Màu chữ */
+  text-decoration: none; /* Bỏ gạch chân */
+  font-weight: bolder;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border-bottom: #2f80ed outset 3px;
+}
+
+.search-tag:hover {
+  background-color: #f1f1f1; /* Nền khi hover */
+}
+
+#DK_thang {
+  width: 39px;
+  margin-top: -3px;
+}
+
+.Login,
+.Signin {
+  margin-top: 7px;
+}
+
+#Login {
+  color: rgba(0, 0, 0, 0.6);
+  padding: 7px 13px;
+}
+
+#Signin {
+  color: white;
+  padding: 7px 13px;
+  border-radius: 4px;
+  background-image: linear-gradient(45deg, #2f80ed 0%, #00aeef 100%);
+}
